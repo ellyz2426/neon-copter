@@ -1,63 +1,58 @@
-# Neon Command VR
+# Neon Copter VR
 
-A Missile Command-style defense game built with [IWSDK](https://iwsdk.dev) for VR and browser.
+A Flappy Bird-style helicopter altitude-control game built with [IWSDK](https://iwsdk.dev) for VR and browser.
 
-**[Play Now](https://ellyz2426.github.io/neon-command/)**
+**[Play Now](https://ellyz2426.github.io/neon-copter/)**
 
 ## Gameplay
 
-Defend 6 neon cities from incoming warheads. Aim your crosshair and fire counter-missiles that create expanding blast zones. Anything caught in the blast radius is destroyed.
-
-### Threat Types
-- **Normal Missile** (red) - Straight-line trajectory
-- **MIRV** (orange) - Splits into 3 warheads at mid-flight
-- **Smart Missile** (magenta) - Zigzags and dodges blast zones
-- **Bomber** (red box) - Flies horizontally, drops bombs
+Control a neon helicopter by tapping to thrust against gravity. Navigate through scrolling gate obstacles, collect orbs for combo multipliers, and survive as long as you can.
 
 ### Game Modes
-1. **Classic** - 20 waves, defend all cities
-2. **Survival** - Endless waves, no mercy
-3. **Blitz** - 60-second score attack
-4. **Wave Defense** - 10 preset challenges
-5. **Daily Challenge** - Date-seeded waves
-6. **Practice** - Unlimited ammo, no damage
-7. **Turret** - Single turret, fast fire
-8. **Marathon** - Extended 50-wave campaign
+1. **Classic** — Standard run, one life
+2. **Speed** — Everything moves faster
+3. **Zen** — Relaxed pace, no death
+4. **Daily** — Date-seeded challenge
+5. **Marathon** — Extended endurance run
+6. **Gauntlet** — Tight gaps, rapid gates
+7. **Tunnel** — Narrowing passages
+8. **Practice** — Learn the mechanics
 
 ## Controls
 
 ### Browser
-- **Mouse** - Aim crosshair
-- **Click** - Fire counter-missile
-- **Space/F** - Fire counter-missile
-- **ESC/P** - Pause
-- **R** - Rematch (game over)
+- **Space** — Thrust upward
+- **Click** — Thrust upward
+- **ESC/P** — Pause
+- **R** — Rematch (game over)
 
 ### VR
-- **Laser pointer** - Aim
-- **Trigger** - Fire
-- **B** - Pause
+- **Trigger** — Thrust
+- **B** — Pause
 
 ## Features
 
+- Gravity + thrust altitude mechanic
+- Scrolling gate obstacles with adjustable gaps
+- Orb collectibles with combo scoring (x1-x10 multiplier)
 - 40 achievements
-- 8 crosshair skins (gameplay-gated)
+- 8 copter skins (gameplay-gated)
 - 5 holodeck themes
 - XP/Level progression (50 levels)
 - Top 20 leaderboard
 - Career stats dashboard
-- Chain blast system (multi-kills create secondary explosions)
-- 3 missile bases with limited ammo
+- Near-miss detection bonus
+- Copter trail effect + gate ring glow
 - 3 difficulty levels
-- Procedural audio (15+ SFX + ambient drone)
-- 150-particle pool for explosions
-- Holodeck environment with floating decorations
+- Procedural audio (15+ SFX + arpeggiator + ambient drone)
+- 150-particle pool
+- Holodeck environment with wireframe decorations
 - localStorage persistence
 - Dual runtime: VR + browser
 
 ## Tech
 
 - IWSDK 0.4.1 (WebXR)
-- 15 PanelUI spatial UI panels (zero HTML DOM)
-- 1,510 lines TypeScript + 218 lines uikitml
+- 14 PanelUI spatial UI panels (zero HTML DOM)
+- 1,191 lines TypeScript + 210 lines uikitml
 - Dual VR + browser runtime
