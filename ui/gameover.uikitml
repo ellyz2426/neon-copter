@@ -1,0 +1,15 @@
+<root flexDirection="column" alignItems="center" gap="6" padding="12" backgroundColor="#000a18ee" borderRadius="8" borderWidth="1" borderColor="#00ffff44" width="380">
+  <text name="go-title" fontSize="22" fontWeight="bold" color="#ff4444">GAME OVER</text>
+  <container flexDirection="column" gap="3" width="100%">
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="11" color="#888888">MODE</text><text name="go-mode" fontSize="11" color="#00ffff">CLASSIC</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="11" color="#888888">SCORE</text><text name="go-score" fontSize="14" fontWeight="bold" color="#ffaa00">0</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="11" color="#888888">DISTANCE</text><text name="go-distance" fontSize="11" color="#00ff88">0m</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="11" color="#888888">GATES</text><text name="go-gates" fontSize="11" color="#00aaff">0</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="11" color="#888888">BEST COMBO</text><text name="go-combo" fontSize="11" color="#ffaa00">x1</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="11" color="#888888">ORBS</text><text name="go-orbs" fontSize="11" color="#ff44ff">0</text></container>
+  </container>
+  <container flexDirection="row" gap="8">
+    <text name="btn-rematch" fontSize="14" fontWeight="bold" color="#00ffff" backgroundColor="#00ffff22" padding="8" borderRadius="4" borderWidth="1" borderColor="#00ffff66" cursor="pointer">REMATCH</text>
+    <text name="btn-menu" fontSize="14" color="#888888" backgroundColor="#88888818" padding="8" borderRadius="4" borderWidth="1" borderColor="#88888844" cursor="pointer">MENU</text>
+  </container>
+</root>

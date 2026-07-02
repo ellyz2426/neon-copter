@@ -1,0 +1,22 @@
+<root flexDirection="column" alignItems="center" gap="4" padding="10" backgroundColor="#000a18ee" borderRadius="8" borderWidth="1" borderColor="#88888844" width="350">
+  <text fontSize="18" fontWeight="bold" color="#888888">SETTINGS</text>
+  <container flexDirection="column" gap="4" width="100%">
+    <container flexDirection="row" justifyContent="space-between" alignItems="center">
+      <text fontSize="11" color="#888888">MASTER</text>
+      <container flexDirection="row" gap="4"><text name="btn-master-down" fontSize="12" color="#666666" cursor="pointer">-</text><text name="master-vol" fontSize="11" color="#00ffff">100</text><text name="btn-master-up" fontSize="12" color="#666666" cursor="pointer">+</text></container>
+    </container>
+    <container flexDirection="row" justifyContent="space-between" alignItems="center">
+      <text fontSize="11" color="#888888">SFX</text>
+      <container flexDirection="row" gap="4"><text name="btn-sfx-down" fontSize="12" color="#666666" cursor="pointer">-</text><text name="sfx-vol" fontSize="11" color="#00ffff">100</text><text name="btn-sfx-up" fontSize="12" color="#666666" cursor="pointer">+</text></container>
+    </container>
+    <container flexDirection="row" justifyContent="space-between" alignItems="center">
+      <text fontSize="11" color="#888888">MUSIC</text>
+      <container flexDirection="row" gap="4"><text name="btn-music-down" fontSize="12" color="#666666" cursor="pointer">-</text><text name="music-vol" fontSize="11" color="#00ffff">100</text><text name="btn-music-up" fontSize="12" color="#666666" cursor="pointer">+</text></container>
+    </container>
+    <container flexDirection="row" justifyContent="space-between" alignItems="center">
+      <text fontSize="11" color="#888888">THEME</text>
+      <container flexDirection="row" gap="4"><text name="btn-theme-prev" fontSize="12" color="#666666" cursor="pointer">&lt;</text><text name="theme-name" fontSize="11" color="#00ffff">HOLODECK</text><text name="btn-theme-next" fontSize="12" color="#666666" cursor="pointer">&gt;</text></container>
+    </container>
+  </container>
+  <text name="btn-settings-back" fontSize="12" color="#666666" padding="4" cursor="pointer">BACK</text>
+</root>

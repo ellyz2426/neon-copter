@@ -1,0 +1,16 @@
+<root flexDirection="column" alignItems="center" gap="4" padding="10" backgroundColor="#000a18ee" borderRadius="8" borderWidth="1" borderColor="#00ff8844" width="380">
+  <text fontSize="18" fontWeight="bold" color="#00ff88">STATS</text>
+  <container flexDirection="column" gap="2" width="100%">
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="10" color="#888888">GAMES PLAYED</text><text name="stat-games" fontSize="10" color="#00ffff">0</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="10" color="#888888">BEST SCORE</text><text name="stat-best" fontSize="10" color="#ffaa00">0</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="10" color="#888888">TOTAL SCORE</text><text name="stat-total" fontSize="10" color="#00ffff">0</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="10" color="#888888">BEST DISTANCE</text><text name="stat-dist" fontSize="10" color="#00ff88">0m</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="10" color="#888888">TOTAL GATES</text><text name="stat-gates" fontSize="10" color="#00aaff">0</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="10" color="#888888">TOTAL ORBS</text><text name="stat-orbs" fontSize="10" color="#ff44ff">0</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="10" color="#888888">BEST COMBO</text><text name="stat-combo" fontSize="10" color="#ffaa00">x1</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="10" color="#888888">PLAY TIME</text><text name="stat-time" fontSize="10" color="#888888">0s</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="10" color="#888888">LEVEL</text><text name="stat-level" fontSize="10" color="#ffaa00">1</text></container>
+    <container flexDirection="row" justifyContent="space-between"><text fontSize="10" color="#888888">ACHIEVEMENTS</text><text name="stat-achs" fontSize="10" color="#ffaa00">0/40</text></container>
+  </container>
+  <text name="btn-stats-back" fontSize="12" color="#666666" padding="4" cursor="pointer">BACK</text>
+</root>

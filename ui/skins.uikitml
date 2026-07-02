@@ -1,0 +1,14 @@
+<root flexDirection="column" alignItems="center" gap="4" padding="10" backgroundColor="#000a18ee" borderRadius="8" borderWidth="1" borderColor="#ff44ff44" width="350">
+  <text fontSize="18" fontWeight="bold" color="#ff44ff">COPTER SKINS</text>
+  <container flexDirection="column" gap="3" width="100%">
+    <text name="skin-0" fontSize="10" color="#00ffff" cursor="pointer">[ * ] Neon Cyan</text>
+    <text name="skin-1" fontSize="10" color="#ff4444" cursor="pointer">[   ] Solar Flare - 50 gates</text>
+    <text name="skin-2" fontSize="10" color="#ff44ff" cursor="pointer">[   ] Plasma Pink - 5K score</text>
+    <text name="skin-3" fontSize="10" color="#4488ff" cursor="pointer">[   ] Frost Wing - 10 games</text>
+    <text name="skin-4" fontSize="10" color="#00ff88" cursor="pointer">[   ] Toxic Green - x5 combo</text>
+    <text name="skin-5" fontSize="10" color="#ffaa00" cursor="pointer">[   ] Royal Gold - 500m dist</text>
+    <text name="skin-6" fontSize="10" color="#8844ff" cursor="pointer">[   ] Void Purple - All modes</text>
+    <text name="skin-7" fontSize="10" color="#ff8844" cursor="pointer">[   ] Inferno - 100 gates</text>
+  </container>
+  <text name="btn-skins-back" fontSize="12" color="#666666" padding="4" cursor="pointer">BACK</text>
+</root>

@@ -1,0 +1,7 @@
+<root flexDirection="column" alignItems="center" gap="4" padding="8" backgroundColor="#000a18cc" borderRadius="6" borderWidth="1" borderColor="#00ffff44" width="300">
+  <text fontSize="16" fontWeight="bold" color="#00ffff">DIFFICULTY</text>
+  <text name="btn-easy" fontSize="14" color="#00ff88" backgroundColor="#00ff8822" padding="6" borderRadius="4" borderWidth="1" borderColor="#00ff8866" cursor="pointer" width="100%">EASY</text>
+  <text name="btn-medium" fontSize="14" color="#ffaa00" backgroundColor="#ffaa0022" padding="6" borderRadius="4" borderWidth="1" borderColor="#ffaa0066" cursor="pointer" width="100%">MEDIUM</text>
+  <text name="btn-hard" fontSize="14" color="#ff4444" backgroundColor="#ff444422" padding="6" borderRadius="4" borderWidth="1" borderColor="#ff444466" cursor="pointer" width="100%">HARD</text>
+  <text name="btn-diff-back" fontSize="12" color="#666666" padding="4" cursor="pointer">BACK</text>
+</root>

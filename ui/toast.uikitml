@@ -1,0 +1,3 @@
+<root flexDirection="row" padding="4" backgroundColor="#00ffff22" borderRadius="4" borderWidth="1" borderColor="#00ffff44">
+  <text name="toast-text" fontSize="11" fontWeight="bold" color="#00ffff">Achievement!</text>
+</root>

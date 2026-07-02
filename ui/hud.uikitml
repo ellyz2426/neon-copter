@@ -1,0 +1,22 @@
+<root flexDirection="row" gap="12" padding="6" backgroundColor="#000a1888" borderRadius="4" borderWidth="1" borderColor="#00ffff33">
+  <container flexDirection="column" gap="2">
+    <text name="hud-score" fontSize="18" fontWeight="bold" color="#00ffff">0</text>
+    <text fontSize="8" color="#00ffff66">SCORE</text>
+  </container>
+  <container flexDirection="column" gap="2">
+    <text name="hud-distance" fontSize="14" color="#00ff88">0m</text>
+    <text fontSize="8" color="#00ff8866">DIST</text>
+  </container>
+  <container flexDirection="column" gap="2">
+    <text name="hud-combo" fontSize="14" color="#ffaa00">x1</text>
+    <text fontSize="8" color="#ffaa0066">COMBO</text>
+  </container>
+  <container flexDirection="column" gap="2">
+    <text name="hud-lives" fontSize="14" color="#ff4444">3</text>
+    <text fontSize="8" color="#ff444466">LIVES</text>
+  </container>
+  <container flexDirection="column" gap="2">
+    <text name="hud-mode" fontSize="10" color="#888888">CLASSIC</text>
+    <text name="hud-time" fontSize="10" color="#888888">--</text>
+  </container>
+</root>

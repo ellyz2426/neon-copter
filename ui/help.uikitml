@@ -1,0 +1,29 @@
+<root flexDirection="column" alignItems="center" gap="4" padding="10" backgroundColor="#000a18ee" borderRadius="8" borderWidth="1" borderColor="#66666644" width="380">
+  <text fontSize="18" fontWeight="bold" color="#00ffff">HELP</text>
+  <container flexDirection="column" gap="2" width="100%">
+    <text fontSize="12" fontWeight="bold" color="#ffaa00">BROWSER CONTROLS</text>
+    <text fontSize="9" color="#888888">SPACE / CLICK - Thrust up</text>
+    <text fontSize="9" color="#888888">RELEASE - Fall with gravity</text>
+    <text fontSize="9" color="#888888">ESC / P - Pause</text>
+    <text fontSize="9" color="#888888">R - Rematch (game over)</text>
+    <text fontSize="12" fontWeight="bold" color="#ffaa00">VR CONTROLS</text>
+    <text fontSize="9" color="#888888">RIGHT TRIGGER - Thrust up</text>
+    <text fontSize="9" color="#888888">RELEASE - Fall with gravity</text>
+    <text fontSize="9" color="#888888">B - Pause</text>
+    <text fontSize="12" fontWeight="bold" color="#ffaa00">GAMEPLAY</text>
+    <text fontSize="9" color="#888888">Fly through gates to score</text>
+    <text fontSize="9" color="#888888">Collect orbs for bonus pts</text>
+    <text fontSize="9" color="#888888">Avoid walls - they hurt!</text>
+    <text fontSize="9" color="#888888">Consecutive gates = combo</text>
+    <text fontSize="12" fontWeight="bold" color="#ffaa00">MODES</text>
+    <text fontSize="9" color="#888888">Classic - 3 lives, endless</text>
+    <text fontSize="9" color="#888888">Speed - 60s, max score</text>
+    <text fontSize="9" color="#888888">Zen - No damage, relax</text>
+    <text fontSize="9" color="#888888">Daily - Seeded challenge</text>
+    <text fontSize="9" color="#888888">Marathon - 1 life, go far</text>
+    <text fontSize="9" color="#888888">Gauntlet - Increasing speed</text>
+    <text fontSize="9" color="#888888">Tunnel - Narrow passages</text>
+    <text fontSize="9" color="#888888">Practice - Unlimited lives</text>
+  </container>
+  <text name="btn-help-back" fontSize="12" color="#666666" padding="4" cursor="pointer">BACK</text>
+</root>

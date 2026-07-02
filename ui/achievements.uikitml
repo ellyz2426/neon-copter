@@ -1,0 +1,26 @@
+<root flexDirection="column" alignItems="center" gap="3" padding="10" backgroundColor="#000a18ee" borderRadius="8" borderWidth="1" borderColor="#ffaa0044" width="400">
+  <text fontSize="18" fontWeight="bold" color="#ffaa00">ACHIEVEMENTS</text>
+  <container flexDirection="column" gap="2" width="100%">
+    <text name="ach-0" fontSize="9" color="#888888">--</text>
+    <text name="ach-1" fontSize="9" color="#888888">--</text>
+    <text name="ach-2" fontSize="9" color="#888888">--</text>
+    <text name="ach-3" fontSize="9" color="#888888">--</text>
+    <text name="ach-4" fontSize="9" color="#888888">--</text>
+    <text name="ach-5" fontSize="9" color="#888888">--</text>
+    <text name="ach-6" fontSize="9" color="#888888">--</text>
+    <text name="ach-7" fontSize="9" color="#888888">--</text>
+    <text name="ach-8" fontSize="9" color="#888888">--</text>
+    <text name="ach-9" fontSize="9" color="#888888">--</text>
+    <text name="ach-10" fontSize="9" color="#888888">--</text>
+    <text name="ach-11" fontSize="9" color="#888888">--</text>
+    <text name="ach-12" fontSize="9" color="#888888">--</text>
+    <text name="ach-13" fontSize="9" color="#888888">--</text>
+    <text name="ach-14" fontSize="9" color="#888888">--</text>
+  </container>
+  <container flexDirection="row" gap="8">
+    <text name="btn-ach-prev" fontSize="10" color="#666666" cursor="pointer">&lt; PREV</text>
+    <text name="ach-page" fontSize="10" color="#888888">1/3</text>
+    <text name="btn-ach-next" fontSize="10" color="#666666" cursor="pointer">NEXT &gt;</text>
+  </container>
+  <text name="btn-ach-back" fontSize="12" color="#666666" padding="4" cursor="pointer">BACK</text>
+</root>
